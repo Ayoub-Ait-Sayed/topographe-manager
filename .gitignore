@@ -1,0 +1,30 @@
+
+# Laravel secrets and dependencies
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/vendor/
+backend/node_modules/
+backend/database/*.sqlite
+backend/database/*.sqlite-*
+backend/storage/*
+!backend/storage/.gitignore
+backend/bootstrap/cache/*.php
+
+# React / Vite / Electron
+frontend/node_modules/
+frontend/dist/
+frontend/release/
+frontend/packaged-resources/backend/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Bundled PHP runtime
+runtime/php/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
